@@ -67,3 +67,7 @@ url = {https://github.com/yuanjiayu/COOR},
 author = {Jiayu Yuan and Guangxing Yang and Haofan Wang and Yonghai Cao and Hongjuan Wang and Feng Peng and Hao Yu}
 }
 ```
+
+## License
+The project is provided under the [Apache-2.0 License](https://github.com/scutcyr/dstc11-simmc2.1-scut-bds-lab/blob/main/LICENSE).
+
