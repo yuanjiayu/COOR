@@ -28,8 +28,31 @@ The [lsv](./lsv) package includes modeling_lsv, getparams, and save_results, whi
 params_dict.json is the default parameter setting for this model.
 
 ## Usage
-1.enter the current directory    
-2.Run the run_model.py file in the terminal, e.g. python run_model.py    
-3.The resulting experimental data are saved in .runs, and experiment logs are saved in .logs.    
-4.Data graphing. Pass the data folder name(e.g. lsv_data_Mar27_22-45-01) to the file(plot_lsv.py), and run.     
-5.Graphics files are saved in the plot_lsv_results folder.    
+
+* Clone Our Project:
+```bash
+cd ~
+git clone https://github.com/yuanjiayu/COOR.git
+```
+* Enter the project directory:
+```bash
+cd COOR
+```
+* Run the [run_model.py](./run_model.py) to perform simulation calculations:
+```bash
+python run_model.py --exp_name=lsv --save_path=./runs --log_file=./logs
+```  
+Note: The resulting experimental data are saved in .runs, and experiment logs are saved in .logs.    
+
+* Data graphing. Edit the [plot_lsv.py](./plot_lsv.py) and then change the ```exp_name="lsv_data_Mar27_22-45-01"``` by using your experience folder name.
+```python
+if __name__ == "__main__":
+    plot_lsv(exp_name="lsv_data_Mar27_22-45-01", 
+             exp_dir="./runs",
+             regen_figure=True)
+```
+* Run the updated [plot_lsv.py](./plot_lsv.py):
+```bash
+python plot_lsv.py
+```
+Note: Graphics files are saved in the **plot_lsv_results** folder.    
