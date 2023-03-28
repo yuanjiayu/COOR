@@ -56,3 +56,14 @@ if __name__ == "__main__":
 python plot_lsv.py
 ```
 Note: Graphics files are saved in the **plot_lsv_results** folder.    
+
+## References
+
+```
+@article{BAZ20201,
+title = {Modeling the electrooxidation of CO on the catalyst with heterogeneous sites},
+year = {2023},
+url = {https://github.com/yuanjiayu/COOR},
+author = {Jiayu Yuan and Guangxing Yang and Haofan Wang and Yonghai Cao and Hongjuan Wang and Feng Peng and Hao Yu}
+}
+```
