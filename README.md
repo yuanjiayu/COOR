@@ -1,6 +1,6 @@
 # [COOR](https://github.com/yuanjiayu/COOR)
 
-* Author: Yuan Jiayu
+* Author: [Yuan Jiayu](https://github.com/yuanjiayu)    
 * Date: 2023.3.28
 
 COOR is an abbreviation for CO electro-oxidation reaction.
